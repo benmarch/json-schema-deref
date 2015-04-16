@@ -2,6 +2,7 @@
   "name": "json-schema-deref",
   "version": "0.1.0",
   "description": "Returns a JSON Schema with $ref's replaced with actual schemas",
+  "homepage": "https://github.com/benmarch/json-schema-deref",
   "main": "dist/json-schema-deref-node.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
