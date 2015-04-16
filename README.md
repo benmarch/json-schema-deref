@@ -4,7 +4,7 @@ Returns a JSON Schema with $ref's replaced with actual schemas
 ## Get Started
 Start by installing using a package manager or by grabbing the proper distribution:
 ```sh
-$ npm install json-schema-deref
+$ npm install simple-json-schema-deref
 or
 $ bower install json-schema-deref
 ```
