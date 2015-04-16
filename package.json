@@ -1,0 +1,20 @@
+{
+  "name": "json-schema-deref",
+  "version": "0.1.0",
+  "description": "Returns a JSON Schema with $ref's replaced with actual schemas",
+  "main": "dist/json-schema-deref-node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "json schema"
+  ],
+  "author": "Ben March <bmarch89@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "^0.5.1",
+    "load-grunt-tasks": "^3.1.0",
+    "time-grunt": "^1.1.0"
+  }
+}

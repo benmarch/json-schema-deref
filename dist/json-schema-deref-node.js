@@ -1,5 +1,3 @@
-'use strict';
-
 function getSchemaFromRefString(schema, refString) {
     var pieces = refString.split('/');
     if (pieces.shift() !== '#') {
@@ -34,3 +32,6 @@ function deref(schema) {
 
     return schema;
 }
+
+
+module.exports = deref;

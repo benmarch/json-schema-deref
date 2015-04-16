@@ -1,4 +1,4 @@
-'use strict';
+angular.module('jsonSchemaDeref', []).factory('jsonSchemaDeref', function () {
 
 function getSchemaFromRefString(schema, refString) {
     var pieces = refString.split('/');
@@ -34,3 +34,8 @@ function deref(schema) {
 
     return schema;
 }
+
+
+return deref;
+
+});

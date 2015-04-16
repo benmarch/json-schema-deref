@@ -1,0 +1,24 @@
+{
+  "name": "json-schema-deref",
+  "main": "dist/json-schema-deref-angular.js",
+  "version": "0.1.0",
+  "authors": [
+    "Ben March <bmarch89@gmail.com>"
+  ],
+  "description": "Returns a JSON Schema with $ref's replaced with actual schemas",
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "json schema"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

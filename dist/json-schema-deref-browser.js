@@ -1,4 +1,4 @@
-'use strict';
+(function (window) {
 
 function getSchemaFromRefString(schema, refString) {
     var pieces = refString.split('/');
@@ -34,3 +34,8 @@ function deref(schema) {
 
     return schema;
 }
+
+
+window.JSON_SCHEMA_DEREF = deref;
+
+}(this));
