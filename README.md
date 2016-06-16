@@ -13,7 +13,7 @@ Note: The main file for Bower defaults to the AngularJS version.
 
 ## Use in NodeJS
 ```javascript
-var jsDeref = requrie('simple-json-schema-deref');
+var jsDeref = require('simple-json-schema-deref');
 
 var dereferencedSchema = jsDeref(schema);
 ```
